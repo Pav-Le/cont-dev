@@ -6,7 +6,7 @@ console.log("Starting application....")
 
 app.get ('/', (req, res)=>{
 
-res.send("Hello World - cloud run app")
+res.send("Hello World - continous invocation")
 
 })
 //just a test
