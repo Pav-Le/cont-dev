@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/gothic-span-362715/github.com/pav-le/shool/$SHORT_SHA', '.']
+  args: ['build', '-t', 'gcr.io/gothic-span-362715/github.com/pav-le/cont-dev/$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/gothic-span-362715/github.com/pav-le/shool/$SHORT_SHA']
+  args: ['push', 'gcr.io/gothic-span-362715/github.com/pav-le/cont-dev/$SHORT_SHA']
   
  
